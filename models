@@ -1,0 +1,7 @@
+📁 File: arima_model.pkl
+This is the serialized (saved) ARIMA model using joblib or pickle.
+
+import joblib
+
+# Assuming your ARIMA model is stored in a variable named `model`
+joblib.dump(model, 'models/arima_model.pkl')
