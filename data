@@ -1,0 +1,10 @@
+#csv_file: data/netflix_stock_data.csv
+
+# Save Netflix Stock Data using Python:
+import yfinance as yf
+
+# Download Netflix stock data
+netflix_data = yf.download('NFLX', start='2020-01-01', end='2024-12-31')
+
+# Save it to the data/ folder
+netflix_data.to_csv('data/netflix_stock_data.csv')
