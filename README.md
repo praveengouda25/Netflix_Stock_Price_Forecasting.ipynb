@@ -18,7 +18,7 @@ pandas	Data manipulation and analysis
 matplotlib, seaborn	Data visualization
 statsmodels	ARIMA model implementation
 yfinance	Stock data fetching from Yahoo
-Jupyter Notebook	Interactive data analysis
+Google Collaboratory	Interactive data analysis
 
 📁 Project Structure
 bash
